@@ -31,7 +31,6 @@ function Formulario({funcionario, setShow}){
                 salario
             }
             ).then(() => {
-                setShow(false)
                 window.location.reload()
             })
         }
