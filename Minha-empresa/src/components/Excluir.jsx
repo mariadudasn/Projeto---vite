@@ -15,7 +15,7 @@ function Excluir({id}){
             console.log("Erro ao excluir")
         })
     }
-
+.
     return(
         <div>
             <span style={{cursor: "pointer"}} onClick={() => setShow(true)}>
